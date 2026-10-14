@@ -1,20 +1,17 @@
-SUREBET TRACKER — NIEUWE BET POP-UP — iPHONE/IPAD
+SUREBETS — UPDATE VOOR GITHUB PAGES
 
-In deze webapp staat rechtsonder de knop '+ Nieuwe bet'. Deze opent op ieder tabblad een pop-up met:
-- Datum, wedstrijd en bettype (2-way / 3-way / 2-way met drie inzetten)
-- Bookmaker, odds, totale inzet en freebet per bet
-- Live eigen geld, totale freebets, verwachte minimumwinst
-- Uitslag invullen (optioneel, kan ook achteraf)
+1. Maak eerst een JSON-back-up in je bestaande Surebets-webapp via Meer > Back-up.
+2. Open je GitHub Pages-repository.
+3. Vervang index.html, manifest.webmanifest, sw.js, icon-192.png en icon-512.png.
+4. Upload de map assets (met alle 7 afbeeldingen) naast index.html.
+5. Bewaar alles op DEZELFDE GitHub Pages-URL. Dit is essentieel voor je lokale administratie.
+6. Wacht tot Pages de bestanden heeft gepubliceerd en herlaad de app. Sluit/open zo nodig de geïnstalleerde app.
+7. Je gegevens staan in de lokale browseropslag en worden normaal behouden op dezelfde URL; herstel je JSON-back-up indien nodig.
 
-PUBLICEREN / BIJWERKEN
-1. Publiceer de bestanden uit deze ZIP op dezelfde HTTPS-webadres als je oude Surebet-app.
-2. Vervang alle bestanden inclusief sw.js. Herlaad de app eventueel een tweede keer voor de nieuwe versie.
-3. Als je de app nog niet eerder geïnstalleerd hebt, open Safari -> Delen -> Zet op beginscherm.
-4. Open de app en kies Meer -> Back-up herstellen om bestaande gegevens te importeren.
-5. Maak geregeld back-ups in iCloud Drive.
+Wijzigingen:
+- Bets start met status Open en oudste datum eerst; bestaande filters blijven beschikbaar.
+- Rekentool: extra inzetlimiet per bet, maximale totale extra inleg, winstoptimalisatie en 3 nabijgelegen alternatieven.
+- Nederlandse huisstijl, Surebets-logo en 6 bijbehorende pictogrammen.
+- Gegevens zijn NIET opgenomen in dit openbare installatiepakket. Upload geen persoonlijke JSON-back-ups.
 
-PRIVACY EN BACK-UPS
-Dit publicatiepakket bevat geen persoonlijke bets of saldi. Publiceer het aparte privé JSON-back-upbestand nooit.
-Bestaande records in dezelfde lokale app worden niet overschreven door de update; gegevens blijven op dat apparaat.
-Op een ander adres/apparaat moet je jouw bestaande privé JSON-back-up importeren.
-De app synchroniseert niet automatisch tussen iPhone en iPad.
+Let op: de rekentool vergelijkt maximale minimale winst, geen voorspelde kansen. Controleer altijd de precieze odds en betvoorwaarden.
